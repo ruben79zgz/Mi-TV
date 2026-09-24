@@ -1,11 +1,18 @@
 #EXTM3U
 #PLAYLIST:TV Rusa - SS IPTV
 
+
+#EXTINF:-1 tvg-id="ChannelOne.ru" tvg-name="Первый канал" tvg-logo="https://i.imgur.com/1IqCGe9.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",Первый канал
+https://vsd123.okcdn.ru/hls/19936939608803.m3u8/sig/8EOr5IZDAGM/expires/1790355522725/srcIp/86.127.224.112/urls/178.237.29.196/clientType/0/srcAg/CHROME/mid/16745842417379/19936939608803_high/index.m3u8
+
 #EXTINF:-1 tvg-id="ChannelOne.ru" tvg-name="Первый канал" tvg-logo="https://i.imgur.com/1IqCGe9.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",Первый канал
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
 #EXTINF:-1 tvg-id="Russia1.ru" tvg-name="Россия 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/1024px-Russia-1.svg.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",Россия 1 HD
 https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="Russia1.ru" tvg-name="Россия 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/1024px-Russia-1.svg.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",Россия 1 HD
+https://live.smotrim.ru/vgtrk/0/russia1-hd/1080p.m3u8
 
 #EXTINF:-1 tvg-id="Russia24.ru" tvg-name="Россия 24 HD (A)" tvg-logo="https://i.imgur.com/tpqsFzm.png" group-title="Noticias" audio-track="rus" aspect-ratio="16:9",Россия 24 HD (A)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
@@ -21,6 +28,13 @@ https://vsd123.okcdn.ru/hls/13420708104710.m3u8/sig/NI7SL8oGDfQ/expires/17903551
 
 #EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ HD" tvg-logo="https://i.imgur.com/DtQX5P2.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",НТВ HD
 https://cdn.ntv.ru/ntv0/playlist.m3u8
+
+#EXTINF:-1 tvg-id="THT.ru" tvg-name="THT HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/2022RUSTNT.png/revision/latest?cb=20230829193555" group-title="Principales" audio-track="rus" aspect-ratio="16:9",НТВ HD
+https://vsd123.okcdn.ru/hls/7983609154166.m3u8/sig/xwoVp6hGx6Q/expires/1790355811507/srcIp/86.127.224.112/urls/176.112.172.117/clientType/0/srcAg/CHROME/mid/9344376708726/7983609154166_low/index.m3u8
+
+
+#EXTINF:-1 tvg-id="5" tvg-name="5 HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7f/Friday%21.svg/revision/latest?cb=20210828113827" group-title="Principales" audio-track="rus" aspect-ratio="16:9",НТВ HD
+https://vsd288.okcdn.ru/hls/7937441663606.m3u8/sig/UPo2WPmtZIE/expires/1790356039212/srcIp/86.127.224.112/urls/95.163.35.103/clientType/0/srcAg/CHROME/mid/9313862491766/7937441663606_high/index.m3u8
 
 #EXTINF:-1 tvg-id="TVCentr.ru" tvg-name="ТВ Центр" tvg-logo="https://i.imgur.com/ZP0D6Rd.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",ТВ Центр
 https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8
@@ -45,6 +59,9 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-name="РТР-Планета" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/RTR_Planeta_Europe.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",РТР-Планета
 https://dvr-player.smotrim.ru/live/smil:rtrp.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTRPlaneta2.ru" tvg-name="РТР-Планета2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/RTR_Planeta_Europe.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",РТР-Планета
+https://stream.smotrim.ru/hls/planeta_rtr_asia/playlist.m3u8?entity=channel&id=511&sign=d1fe06cd922b67e412719536998fa43d
 
 #EXTINF:-1 tvg-id="TelekanalSpas.ru" tvg-name="Спас" tvg-logo="https://i.imgur.com/A6Cqsom.jpeg" group-title="Cultura y familia" audio-track="rus" aspect-ratio="16:9",Спас
 https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
