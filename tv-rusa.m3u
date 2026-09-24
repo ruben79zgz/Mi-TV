@@ -17,6 +17,9 @@ https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8
 https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ HD" tvg-logo="https://i.imgur.com/DtQX5P2.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",НТВ HD
+https://vsd123.okcdn.ru/hls/13420708104710.m3u8/sig/NI7SL8oGDfQ/expires/1790355108182/srcIp/86.127.224.112/urls/176.112.172.45/clientType/0/srcAg/CHROME/mid/13613249011206/13420708104710_high/index.m3u8
+
+#EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ HD" tvg-logo="https://i.imgur.com/DtQX5P2.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",НТВ HD
 https://cdn.ntv.ru/ntv0/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVCentr.ru" tvg-name="ТВ Центр" tvg-logo="https://i.imgur.com/ZP0D6Rd.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",ТВ Центр
