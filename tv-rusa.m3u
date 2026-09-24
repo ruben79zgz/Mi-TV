@@ -1,0 +1,83 @@
+#EXTM3U
+#PLAYLIST:TV Rusa - SS IPTV
+
+#EXTINF:-1 tvg-id="ChannelOne.ru" tvg-name="Первый канал" tvg-logo="https://i.imgur.com/1IqCGe9.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",Первый канал
+https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+
+#EXTINF:-1 tvg-id="Russia1.ru" tvg-name="Россия 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/1024px-Russia-1.svg.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",Россия 1 HD
+https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="Russia24.ru" tvg-name="Россия 24 HD (A)" tvg-logo="https://i.imgur.com/tpqsFzm.png" group-title="Noticias" audio-track="rus" aspect-ratio="16:9",Россия 24 HD (A)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
+
+#EXTINF:-1 tvg-id="Russia24.ru" tvg-name="Россия 24 HD (B)" tvg-logo="https://i.imgur.com/tpqsFzm.png" group-title="Noticias" audio-track="rus" aspect-ratio="16:9",Россия 24 HD (B)
+https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8
+
+#EXTINF:-1 tvg-id="RussiaK.ru" tvg-name="Россия-Культура HD" tvg-logo="https://i.imgur.com/S12gaLc.png" group-title="Cultura y familia" audio-track="rus" aspect-ratio="16:9",Россия-Культура HD
+https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ HD" tvg-logo="https://i.imgur.com/DtQX5P2.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",НТВ HD
+https://cdn.ntv.ru/ntv0/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVCentr.ru" tvg-name="ТВ Центр" tvg-logo="https://i.imgur.com/ZP0D6Rd.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",ТВ Центр
+https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mir.ru" tvg-name="МИР HD" tvg-logo="https://i.imgur.com/L2slsbG.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",МИР HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mir24.ru" tvg-name="МИР 24" tvg-logo="https://i.imgur.com/CrFWXTD.png" group-title="Noticias" audio-track="rus" aspect-ratio="16:9",МИР 24
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Moskva24.ru" tvg-name="Москва 24" tvg-logo="https://i.imgur.com/gXbUMVy.png" group-title="Noticias" audio-track="rus" aspect-ratio="16:9",Москва 24
+https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8
+
+#EXTINF:-1 tvg-id="LipetskoeVremya.ru" tvg-name="Липецкое время" group-title="Lipetsk" audio-track="rus" aspect-ratio="16:9",Липецкое время
+http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RBKTV.ru" tvg-name="РБК" tvg-logo="https://i.imgur.com/P2Qii5B.png" group-title="Noticias" audio-track="rus" aspect-ratio="16:9",РБК
+https://online-video.rbc.ru/spb/rbctv_spb.m3u8
+
+#EXTINF:-1 tvg-id="Zvezda.ru" tvg-name="Звезда HD" tvg-logo="https://i.imgur.com/c0L0ncA.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-name="РТР-Планета" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/RTR_Planeta_Europe.png" group-title="Principales" audio-track="rus" aspect-ratio="16:9",РТР-Планета
+https://dvr-player.smotrim.ru/live/smil:rtrp.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TelekanalSpas.ru" tvg-name="Спас" tvg-logo="https://i.imgur.com/A6Cqsom.jpeg" group-title="Cultura y familia" audio-track="rus" aspect-ratio="16:9",Спас
+https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Smotrim100Detskoe.ru" tvg-name="Смотрим 100% Детское" group-title="Cultura y familia" audio-track="rus" aspect-ratio="16:9",Смотрим 100% Детское
+https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
+
+#EXTINF:-1 tvg-id="Smotrim100Klassika.ru" tvg-name="Смотрим 100% Классика" group-title="Cultura y familia" audio-track="rus" aspect-ratio="16:9",Смотрим 100% Классика
+https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
+
+#EXTINF:-1 tvg-name="Смотрим: Мелодрамы" tvg-logo="https://cdn-st1.smotrim.ru/vh/pictures/r/456/967/6.png" group-title="Series y documentales" audio-track="rus" aspect-ratio="16:9",Смотрим: Мелодрамы
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Смотрим: Тайны" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/r/456/396/2.png" group-title="Series y documentales" audio-track="rus" aspect-ratio="16:9",Смотрим: Тайны
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-07.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Смотрим: Честный Детектив" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/r/444/241/8.png" group-title="Series y documentales" audio-track="rus" aspect-ratio="16:9",Смотрим: Честный Детектив
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Arkhyz24.ru" tvg-name="Архыз 24" tvg-logo="https://i.imgur.com/mve0sSS.png" group-title="Regionales" audio-track="rus" aspect-ratio="16:9",Архыз 24
+https://live.mediacdn.ru/sr1/arhis24/playlist_hdhigh.m3u8
+
+#EXTINF:-1 tvg-id="Astrakhan24.ru" tvg-name="Астрахань 24" tvg-logo="https://i.imgur.com/9WcnjQN.png" group-title="Regionales" audio-track="rus" aspect-ratio="16:9",Астрахань 24
+https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Samara24.ru" tvg-name="Самара 24" tvg-logo="https://i.imgur.com/Xg7Xzna.png" group-title="Regionales" audio-track="rus" aspect-ratio="16:9",Самара 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="Saratov24.ru" tvg-name="Саратов 24" tvg-logo="https://i.imgur.com/Y5G3ET6.png" group-title="Regionales" audio-track="rus" aspect-ratio="16:9",Саратов 24
+https://saratov24.tv/online/playlist.php
+
+#EXTINF:-1 tvg-id="Tolyatti24.ru" tvg-name="Тольятти 24" tvg-logo="https://i.imgur.com/5jVKopE.png" group-title="Regionales" audio-track="rus" aspect-ratio="16:9",Тольятти 24
+https://tvtogliatti24.ru/hls/live1080/index.m3u8
+
+#EXTINF:-1 tvg-id="Yakutiya24.ru" tvg-name="Якутия 24" tvg-logo="https://i.imgur.com/2BAQklm.png" group-title="Regionales" audio-track="rus" aspect-ratio="16:9",Якутия 24
+https://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Sever.ru" tvg-name="Север" tvg-logo="https://i.imgur.com/sTOQLYl.png" group-title="Regionales" audio-track="rus" aspect-ratio="16:9",Север
+https://live.mediacdn.ru/sr1/sever/playlist.m3u8

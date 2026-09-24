@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "name": "TV Rusa - SS IPTV",
+    "owner": "Uso personal",
+    "repo_owner": "ruben79zgz",
+    "repo_name": "TV-Rusa",
+    "notes": "Lista centrada en emisiones gratuitas/publicas. Los grandes canales usan preferentemente sus propios dominios/CDN oficiales o proveedores declarados por la emisora."
+  },
+  "channels": [
+    {
+      "id": "ChannelOne.ru",
+      "name": "Первый канал (experimental)",
+      "group": "Principales",
+      "logo": "logos/1tv.png",
+      "enabled": true,
+      "experimental": true,
+      "format": "dash",
+      "official_page": "https://www.1tv.ru/live",
+      "allowed_hosts": ["1internet.tv"],
+      "candidates": [
+        "https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd"
+      ],
+      "notes": "El directo oficial de 1tv.ru usa MPEG-DASH. Puede no ser compatible con algunos Philips/SAPHI; se mantiene como prueba."
+    },
+    {
+      "id": "Russia1.ru",
+      "name": "Россия 1 HD",
+      "group": "Principales",
+      "logo": "logos/russia1.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://smotrim.ru/",
+      "allowed_hosts": ["smotrim.ru", "cdnvideo.ru"],
+      "candidates": [
+        "https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8",
+        "https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8",
+        "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8"
+      ]
+    },
+    {
+      "id": "Russia24.ru",
+      "name": "Россия 24 HD",
+      "group": "Noticias",
+      "logo": "logos/russia24.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://smotrim.ru/",
+      "allowed_hosts": ["smotrim.ru", "cdnvideo.ru"],
+      "candidates": [
+        "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8",
+        "https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8"
+      ]
+    },
+    {
+      "id": "RussiaK.ru",
+      "name": "Россия-Культура HD",
+      "group": "Cultura y familia",
+      "logo": "logos/kultura.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://smotrim.ru/",
+      "allowed_hosts": ["smotrim.ru", "cdnvideo.ru"],
+      "candidates": [
+        "https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8",
+        "https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8"
+      ]
+    },
+    {
+      "id": "NTV.ru",
+      "name": "НТВ HD",
+      "group": "Principales",
+      "logo": "logos/ntv.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://www.ntv.ru/air/",
+      "allowed_hosts": ["ntv.ru"],
+      "candidates": [
+        "https://cdn.ntv.ru/ntv0/playlist.m3u8",
+        "https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8",
+        "https://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8"
+      ]
+    },
+    {
+      "id": "TVCentr.ru",
+      "name": "ТВ Центр",
+      "group": "Principales",
+      "logo": "logos/tvc.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://www.tvc.ru/",
+      "allowed_hosts": ["tvc-hls.cdnvideo.ru"],
+      "candidates": [
+        "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8",
+        "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8"
+      ]
+    },
+    {
+      "id": "Mir.ru",
+      "name": "МИР HD",
+      "group": "Principales",
+      "logo": "logos/mir.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://mir24.tv/live",
+      "allowed_hosts": ["mirtv.cdnvideo.ru"],
+      "candidates": [
+        "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8"
+      ]
+    },
+    {
+      "id": "Mir24.ru",
+      "name": "МИР 24",
+      "group": "Noticias",
+      "logo": "logos/mir24.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://mir24.tv/live",
+      "allowed_hosts": ["mirtv.cdnvideo.ru"],
+      "candidates": [
+        "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8"
+      ]
+    },
+    {
+      "id": "Moskva24.ru",
+      "name": "Москва 24",
+      "group": "Noticias",
+      "logo": "logos/moscow24.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://www.m24.ru/live",
+      "allowed_hosts": ["smotrim.ru"],
+      "candidates": [
+        "https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8",
+        "https://stream.smotrim.ru/hls2/givc9/playlist_4.m3u8"
+      ]
+    },
+    {
+      "id": "LipetskoeVremya.ru",
+      "name": "Липецкое время",
+      "group": "Lipetsk",
+      "logo": "logos/lipetsk.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://lipetsktime.ru/tv/online.php",
+      "allowed_hosts": ["vintera.tv", "yandex.ru"],
+      "candidates": [
+        "http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8",
+        "https://strm.yandex.ru/kal/lipetcktime_supres/lipetcktime_supres0.m3u8"
+      ],
+      "notes": "La web oficial de Lipetskoe Vremya indica que su señal está disponible online y en Vintera.TV."
+    },
+    {
+      "id": "RBKTV.ru",
+      "name": "РБК",
+      "group": "Noticias",
+      "logo": "logos/rbk.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://tv.rbc.ru/",
+      "allowed_hosts": ["rbc.ru"],
+      "candidates": [
+        "https://online-video.rbc.ru/spb/rbctv_spb.m3u8",
+        "http://online-video.rbc.ru/online2/rbctv.m3u8"
+      ]
+    },
+    {
+      "id": "Zvezda.ru",
+      "name": "Звезда HD",
+      "group": "Principales",
+      "logo": "logos/zvezda.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://tvzvezda.ru/",
+      "allowed_hosts": ["tvzvezda.ru"],
+      "candidates": [
+        "https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8",
+        "http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8"
+      ]
+    },
+    {
+      "id": "Smotrim100Detskoe.ru",
+      "name": "Смотрим 100% Детское",
+      "group": "Cultura y familia",
+      "logo": "logos/detskoe.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://smotrim.ru/",
+      "allowed_hosts": ["smotrim.ru"],
+      "candidates": [
+        "https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8"
+      ]
+    },
+    {
+      "id": "Smotrim100Klassika.ru",
+      "name": "Смотрим 100% Классика",
+      "group": "Cultura y familia",
+      "logo": "logos/klassika.png",
+      "enabled": true,
+      "format": "hls",
+      "official_page": "https://smotrim.ru/",
+      "allowed_hosts": ["smotrim.ru"],
+      "candidates": [
+        "https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8"
+      ]
+    }
+  ]
+}
