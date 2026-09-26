@@ -3,8 +3,16 @@
 #EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ" tvg-logo="https://i.imgur.com/DtQX5P2.png" group-title="Principales",НТВ HD
 https://cdn.ntv.ru/ntv0/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ" tvg-logo="https://i.imgur.com/DtQX5P2.png" group-title="Principales",НТВ HD
-https://cdn.ntv.ru/ntv0/index.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru" tvg-name="Россия 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/960px-Russia-1.svg.png" group-title="Principales",Россия 1 HD
+https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ" tvg-logo="https://i.imgur.com/DtQX5P2.png" group-title="Principales",НТВ HD
-http://cdn.ntv.ru/ntv0/tracks-v3a1/mono.m3u8
+#EXTINF:-1 tvg-id="TelekanalZvezda.ru" tvg-name="Звезда" tvg-logo="https://i.imgur.com/c0L0ncA.png" group-title="Principales",Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+
+#EXTINF:-1 tvg-id="Mir.ru" tvg-name="МИР" tvg-logo="https://i.imgur.com/L2slsbG.png" group-title="Principales",МИР HD
+https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Mir24.ru" tvg-name="МИР 24" tvg-logo="https://i.imgur.com/CrFWXTD.png" group-title="Noticias",МИР 24
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+
+
