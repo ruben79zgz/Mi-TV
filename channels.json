@@ -29,10 +29,12 @@
       "format": "hls",
       "official_page": "https://www.ntv.ru/air/",
       "candidates": [
+        "https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8",
         "https://cdn.ntv.ru/ntv0/playlist.m3u8",
         "https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8",
         "https://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8"
-      ]
+      ],
+      "notes": "Primero se usa una señal HLS combinada audio+vídeo que suele funcionar mejor dentro de navegadores. Se conservan detrás los enlaces oficiales de NTV."
     },
     {
       "id": "Russia1.ru",
@@ -57,10 +59,12 @@
       "format": "hls",
       "official_page": "https://smotrim.ru/",
       "candidates": [
+        "https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8",
         "https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8",
         "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8",
         "https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8"
-      ]
+      ],
+      "notes": "La primera señal combina vídeo y audio. Algunas variantes HD de Smotrim publicadas actualmente contienen solo vídeo."
     },
     {
       "id": "RussiaK.ru",
@@ -71,9 +75,11 @@
       "format": "hls",
       "official_page": "https://smotrim.ru/",
       "candidates": [
+        "https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8",
         "https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8",
         "https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8"
-      ]
+      ],
+      "notes": "La primera señal combina vídeo y audio; las oficiales quedan como respaldo."
     },
     {
       "id": "TelekanalZvezda.ru",
