@@ -29,12 +29,11 @@
       "format": "hls",
       "official_page": "https://www.ntv.ru/air/",
       "candidates": [
-        "https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8",
         "https://cdn.ntv.ru/ntv0/playlist.m3u8",
         "https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8",
         "https://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8"
       ],
-      "notes": "Primero se usa una señal HLS combinada audio+vídeo que suele funcionar mejor dentro de navegadores. Se conservan detrás los enlaces oficiales de NTV."
+      "notes": "Se prioriza el enlace oficial de NTV, confirmado funcionando en móvil y PC tras actualizar la app."
     },
     {
       "id": "Russia1.ru",
